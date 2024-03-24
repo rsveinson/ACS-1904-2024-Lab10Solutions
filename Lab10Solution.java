@@ -43,13 +43,7 @@ public class Lab10Solution{
             return n + findSum(n -1);
         }
     }// end findsum
-    
-    public static int numberOfDigits(int n){
-        if(n < 10)
-            return 1;
-        else
-            return 1 + numberOfDigits(n / 10);
-    }
+
     
     public static int gcd(int x, int y){
         if(x % y == 0)
